@@ -25,7 +25,7 @@ while True:
             r = u / i
             print(f"\n>> Resultado: Resistência = {r:.2f} Ω")
         else:
-            print("\n❌ Erro: A corrente não pode ser zero!")
+            print("\n Erro: A corrente não pode ser zero!")
 
     elif opcao == '3':
         # Cálculo da Corrente: I = U / R
@@ -35,11 +35,11 @@ while True:
             i = u / r
             print(f"\n>> Resultado: Corrente = {i:.2f} A")
         else:
-            print("\n❌ Erro: A resistência não pode ser zero!")
+            print("\n Erro: A resistência não pode ser zero!")
 
     elif opcao == '4':
         print("Saindo do programa... Até logo!")
         break
 
     else:
-        print("\n⚠️ Opção inválida! Por favor, escolha um número de 1 a 4.")
+        print("\n Opção inválida! Por favor, escolha um número de 1 a 4.")
