@@ -7,6 +7,6 @@ senha_digitada = input("Digite a senha: ")
 if (usuario_digitado == "atila" and senha_digitada == "12345") or \
    (usuario_digitado == "olivi" and senha_digitada == "54321"):
     
-    print("\n✅ Seja bem vindo!")
+    print("\n Seja bem vindo!")
 else:
-    print("\n❌ Usuário e senha não conferem")
+    print("\n Usuário e senha não conferem")
