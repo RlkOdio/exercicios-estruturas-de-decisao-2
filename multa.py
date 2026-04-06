@@ -10,7 +10,7 @@ if velocidade > limite:
     valor_multa = km_acima * 50
     
     print("-" * 30)
-    print("⚠️ MULTADO! Você excedeu o limite de 80Km/h.")
+    print(" MULTADO! Você excedeu o limite de 80Km/h.")
     print(f"Velocidade registrada: {velocidade}Km/h")
     print(f"Km acima do limite: {km_acima}Km/h")
     print(f"Valor da multa: R$ {valor_multa:.2f}")
